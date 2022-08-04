@@ -11,10 +11,10 @@ const cors = require('cors');
 app.use(cors());
 
 
-app.get('/loaderio-ccb0914874e2092f3c030579f99a2266.txt', async (req, res) => {
+app.get('/loaderio-88856cb277344c392f9188b6c0f0cd50.txt', async (req, res) => {
   try {
     console.log("Send file", path.join(__dirname, 'loaderio-ccb0914874e2092f3c030579f99a2266.txt'))
-    res.status(200).sendFile(path.join(__dirname, 'loaderio-ccb0914874e2092f3c030579f99a2266.txt'))
+    res.status(200).sendFile(path.join(__dirname, 'loaderio-88856cb277344c392f9188b6c0f0cd50.txt'))
   } catch (err) {
     console.log("Error getting styles:", err, style, req.params.product_id)
   }
