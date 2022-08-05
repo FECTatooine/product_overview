@@ -11,7 +11,7 @@ const cors = require('cors');
 app.use(cors());
 
 
-app.get('http://localhost/loaderio-66f0b7e85f71337a8acb614334ac66cd.txt', async (req, res) => {
+app.get('/loaderio-66f0b7e85f71337a8acb614334ac66cd.txt', async (req, res) => {
   try {
     res.status(200).sendFile(path.join(__dirname, 'loaderio-66f0b7e85f71337a8acb614334ac66cd.txt'))
   } catch (err) {
